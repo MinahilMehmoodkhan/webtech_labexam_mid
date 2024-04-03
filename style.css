@@ -1,50 +1,77 @@
-/* Style the navigation bar */
-.navbar {
-    overflow: hidden;
-    background-color: black;
-    color: white;
+* Reset some default styling */
+body, ul {
+    margin: 0;
+    padding: 0;
 }
 
-/* Navigation bar links */
-.navbar a {
-    float: left;
-    display: block;
+/* Style the header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Style main content section */
+main {
+    padding: 20px;
+}
+
+/* Style the main program section */
+.main-program {
+    background: url('assets/mobile_intro_bg.png');
     color: white;
+    padding: 20px;
+}
+
+.main-program h2 {
     text-align: center;
-    padding: 14px;
-    text-decoration: none;
 }
 
-/* On hover, change link color */
-.navbar a:hover {
-    background-color: blue; /* or any other color of choice */
+.program-card {
+    display: inline-block;
+    width: 18%;
+    margin: 10px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
 }
 
-/* Dropdown button */
-.dropbtn {
-    background-color: black;
+.program-card img {
+    max-width: 100%;
+}
+
+.program-card h3 {
+    margin-top: 10px;
+}
+
+/* Style the partners section */
+.partners-section {
+    background-color: #333;
     color: white;
-    border: none;
-    cursor: pointer;
+    padding: 20px;
 }
 
-/* Dropdown content container */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
+.partners img {
+    margin-right: 20px;
 }
 
-/* Show dropdown content on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
+/* Style the footer section */
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
 }
 
-/* Style for input search box */
-input[type="text"] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-    width: auto;
+.footer-content img {
+    float: left;
+    margin-right: 10px;
 }
