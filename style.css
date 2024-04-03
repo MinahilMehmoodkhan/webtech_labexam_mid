@@ -1,0 +1,77 @@
+* Reset some default styling */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Style main content section */
+main {
+    padding: 20px;
+}
+
+/* Style the main program section */
+.main-program {
+    background: url('assets/mobile_intro_bg.png');
+    color: white;
+    padding: 20px;
+}
+
+.main-program h2 {
+    text-align: center;
+}
+
+.program-card {
+    display: inline-block;
+    width: 18%;
+    margin: 10px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.program-card img {
+    max-width: 100%;
+}
+
+.program-card h3 {
+    margin-top: 10px;
+}
+
+/* Style the partners section */
+.partners-section {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.partners img {
+    margin-right: 20px;
+}
+
+/* Style the footer section */
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.footer-content img {
+    float: left;
+    margin-right: 10px;
+}
