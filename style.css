@@ -1,37 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-:root {
-  --primary-color: rgba(96, 112, 255, 1);
+/* Style the navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    color: white;
 }
 
-/* Your CSS styles for mobile devices with a width of 376 pixels or less */
-.body {
-  width: 375px;
-  padding: 20px;
-  margin: 0% !important;
-  background-color: rgb(241, 242, 234);
+/* Navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  max-width: 375px;
+/* On hover, change link color */
+.navbar a:hover {
+    background-color: blue; /* or any other color of choice */
 }
 
-.nav-left {
-  font-family: Poppins, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
-  color: var(--primary-color);
-  margin-left: 15px;
+/* Dropdown button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-.nav-right {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 15px;
+/* Dropdown content container */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style for input search box */
+input[type="text"] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: auto;
 }
